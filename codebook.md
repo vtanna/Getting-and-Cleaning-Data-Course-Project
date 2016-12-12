@@ -14,28 +14,29 @@ Running the run_analysis.R on the original data set (downloaded from https://d39
 *From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ##variable names and their meaning
-activities: 			The activity performed
-subject: 				Subject ID
-tbodyacc-mean-x/y/z: 		Mean time for acceleration of body for X/Y/Z direction
-tbodyacc-std-x/y/z: 		Standard deviation of time for acceleration of body for X/Y/Z direction
-tgravityacc-mean-x/y/x: 	Mean time of acceleration of gravity for X/Y/Z direction
-tgravityacc-std-x/y/z: 		Standard deviation of time of acceleration of gravity for X/Y/Z direction
-tbodyaccjerk-mean-x/y/z: 	Mean time of body acceleration jerk for  direction
-tbodyaccjerk-std-x/y/z: 	Standard deviation of time of body acceleration jerk for X/Y/Z direction
-tbodygyro-mean-x/y/z:	 	Mean body gyroscope measurement for X/Y/Z direction
-tbodygyro-std-x/y/z:	 	Standard deviation of body gyroscope measurement for X/Y/Z direction
-tbodygyrojerk-mean-x/y/z: 	Mean jerk signal of body for X/Y/Z direction
-tbodygyrojerk-std-x/y/z: 	Standard deviation of jerk signal of body for X/Y/Z direction
-tbodyaccmag-mean:	 		Mean magnitude of body Acc
-tbodyaccmag-std:	 		Standard deviation of magnitude of body Acc
-tgravityaccmag-mean: 		Mean gravity acceleration magnitude
-tgravityaccmag-std: 		Standard deviation of gravity acceleration magnitude
-tbodyaccjerkmag-mean: 		Mean magnitude of body acceleration jerk
-tbodyaccjerkmag-std: 		Standard deviation of magnitude of body acceleration jerk
-tbodygyromag-mean:	 		Mean magnitude of body gyroscope measurement
-tbodygyromag-std:	 		Standard deviation of magnitude of body gyroscope measurement
-tbodygyrojerkmag-mean: 		Mean magnitude of body body gyroscope jerk measurement
-tbodygyrojerkmag-std: 		Standard deviation of magnitude of body body gyroscope jerk measurement
+|activities|The activity performed|
+----------------------------|-------------------------------------------------------------------------|
+|subject|Subject ID|
+|tbodyacc-mean-x/y/z|Mean time for acceleration of body for X/Y/Z direction|
+|tbodyacc-std-x/y/z|Standard deviation of time for acceleration of body for X/Y/Z direction|
+|tgravityacc-mean-x/y/x|Mean time of acceleration of gravity for X/Y/Z direction|
+|tgravityacc-std-x/y/z|Standard deviation of time of acceleration of gravity for X/Y/Z direction|
+|tbodyaccjerk-mean-x/y/z|Mean time of body acceleration jerk for  direction|
+|tbodyaccjerk-std-x/y/z|Standard deviation of time of body acceleration jerk for X/Y/Z direction|
+|tbodygyro-mean-x/y/z|Mean body gyroscope measurement for X/Y/Z direction|
+|tbodygyro-std-x/y/z|Standard deviation of body gyroscope measurement for X/Y/Z direction|
+|tbodygyrojerk-mean-x/y/z|Mean jerk signal of body for X/Y/Z direction|
+|tbodygyrojerk-std-x/y/z|Standard deviation of jerk signal of body for X/Y/Z direction|
+|tbodyaccmag-mean|Mean magnitude of body Acc|
+|tbodyaccmag-std|Standard deviation of magnitude of body Acc|
+|tgravityaccmag-mean|Mean gravity acceleration magnitude|
+|tgravityaccmag-std|Standard deviation of gravity acceleration magnitude|
+|tbodyaccjerkmag-mean|Mean magnitude of body acceleration jerk|
+|tbodyaccjerkmag-std|Standard deviation of magnitude of body acceleration jerk|
+|tbodygyromag-mean|Mean magnitude of body gyroscope measurement|
+|tbodygyromag-std|Standard deviation of magnitude of body gyroscope measurement|
+|tbodygyrojerkmag-mean|Mean magnitude of body body gyroscope jerk measurement|
+|tbodygyrojerkmag-std|Standard deviation of magnitude of body body gyroscope jerk measurement|
 
 *variable names that start with f (instead of t above) are same as above except in the frequency domain.
 
